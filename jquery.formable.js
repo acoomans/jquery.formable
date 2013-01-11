@@ -4,8 +4,9 @@
  * https://github.com/acoomans/jquery.formable
  *
  * Copyright 2012 Arnaud Coomans
- * Released under the MIT license
+ * Released under the BSD license
  * http://opensource.org/licenses/BSD-3-Clause
+ *
  */
 
 (function($){
