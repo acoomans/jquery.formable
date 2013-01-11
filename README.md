@@ -11,10 +11,10 @@ Add a form (i.e. an example of a form using bootstrap):
 
 	<form action="/" method="post">
 		<div class="controls controls-row">
-			<p type="text" name="title" placeholder="Title" class="formable"></p>
+			<p type="text" name="title" placeholder="Title" class="formable">My Title</p>
 		</div>
 		<div class="controls controls-row">
-			<p type="text" name="description" placeholder="Description" data-formable-form-class="textarea" class="formable"></p>
+			<p type="text" name="description" placeholder="Description" data-formable-form-class="textarea" class="formable">My Description</p>
 		</div>
 	</form>
 
@@ -26,10 +26,10 @@ And the form becomes:
 
 	<form action="/" method="post">
 		<div class="controls controls-row">
-			<input type="text" name="title" placeholder="Title" class="formable"></input>
+			<input type="text" name="title" placeholder="Title" class="formable" value="My Title"></input>
 		</div>
 		<div class="controls controls-row">
-			<textarea type="text" name="description" placeholder="Description" data-formable-form-class="textarea" class="formable"></textarea>
+			<textarea type="text" name="description" placeholder="Description" data-formable-form-class="textarea" class="formable">My Description</textarea>
 		</div>
 	</form>
 
