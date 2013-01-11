@@ -18,7 +18,7 @@ Add a form (i.e. an example of a form using bootstrap):
 		</div>
 	</form>
 
-The form contains two <p> elements of class _.formable_. To change the _.formable_ elements to form elements (input and textarea), just call:
+The form contains two elements of class _.formable_. To change the _.formable_ elements to form elements (input and textarea), just call:
 
 	$(".formable").formable('form');
 
